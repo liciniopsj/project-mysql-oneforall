@@ -7,4 +7,4 @@ FROM
 WHERE
     a.artist_name = 'Elis Regina'
 GROUP BY al.album_title
-ORDER BY al.album_title DESC;
+ORDER BY al.album_title;
